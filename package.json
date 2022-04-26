@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --output-path docs --baseHref='https://ankur-gupta-github.github.io/globetrotter/' && npx ngh --dir docs"
+    "build:gh": "ng build --output-path docs --baseHref='https://ankur-gupta-github.github.io/globetrotter/'"
   },
   "private": true,
   "dependencies": {
