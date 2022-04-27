@@ -1,0 +1,56 @@
+.landing{
+    position:relative; 
+    max-height:100vh; 
+    overflow: hidden;    
+}
+
+.landing-img{
+    width: 100vw;
+}
+
+.landing-text{
+    position: absolute; 
+    transform: translate(-50%,-50%); 
+    top: 50%; 
+    left: 50%; 
+    align-items: center; 
+    color: white; 
+    font-size: 20vh; 
+    display: flex; 
+    font-family: sans-serif; 
+    width: fit-content;
+}
+
+.about{
+    height: 100vh;
+    background: lightgray;
+    position:relative; 
+    min-height:100vh; 
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text{
+    width: 60%;
+    padding: 0 10vw 10vw 10vw;
+}
+
+.about-img-div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.about-img{
+    border-radius: 50%;
+    border: solid 1vw gray;
+    height: 20vw;
+}
+
+.vl {
+    border-left: 1vw solid gray;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+  }
