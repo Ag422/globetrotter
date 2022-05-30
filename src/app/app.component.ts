@@ -51,7 +51,8 @@ export class AppComponent {
           ['za', 1], //south africa
           ['mu', 1], //mauritius
           ['th', 1], //thailand
-          ['de', 1]  //germany
+          ['de', 1], //germany
+          ['kw', 1]  //kuwait
         ],
         dataLabels: {
           enabled: true,
